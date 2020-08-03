@@ -1,7 +1,7 @@
 import csv,json
 jsonFilePath="happy.json"
 # Read the data from csv
-data={}
+# data={}
 with open('20200617_analytics_v2.csv','r') as csv_file:
     csv_reader=csv.DictReader(csv_file)
     csv_headings = next(csv_reader)
